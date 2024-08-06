@@ -14,7 +14,8 @@ export function Navbar() {
                     <NavbarButtonMobile />
                 </div>
                 <div className="Navbar_Buttons_Computer">
-                    <NavbarButtonComputer text="HOME"/>
+                    <NavbarButtonComputer text="HOME" link="/"/>
+                    <NavbarButtonComputer text="USER" link="/user/info/"/>
                 </div>
             </>
         )

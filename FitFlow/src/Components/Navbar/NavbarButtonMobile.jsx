@@ -2,9 +2,11 @@ import "./NavbarButtonMobile.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export function NavbarButtonMobile() {
     const [Open, setOpen] = useState(false);
+    const navigate = useNavigate();
 
     function LatteralNavBar() {
         if (Open) {
@@ -15,14 +17,14 @@ export function NavbarButtonMobile() {
                             <FontAwesomeIcon icon={faBars}/>
                         </button>
                         <div className="Latteral_Navbar_Button_Direction_Page_Corps">
-                            <button className="Latteral_Navbar_Button_Direction_Page_Button">
+                            <button className="Latteral_Navbar_Button_Direction_Page_Button" onClick={() => {navigate("/")}}>
                                 <div className="Latteral_Navbar_Button_Direction_Page_Button_Text">
                                     HOME
                                 </div>
                             </button>
-                            <button className="Latteral_Navbar_Button_Direction_Page_Button">
+                            <button className="Latteral_Navbar_Button_Direction_Page_Button" onClick={() => {navigate("/user/info/")}}>
                                 <div className="Latteral_Navbar_Button_Direction_Page_Button_Text">
-                                    TEST
+                                    USER
                                 </div>
                             </button>
                         </div>
