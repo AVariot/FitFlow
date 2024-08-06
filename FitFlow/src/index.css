@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+	top: 0px;
+	left: 0px;
+
+	font-synthesis: none;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--background: #F9F7F0;
+	--headfeet: #0a3957;
+	--box: #18B7BE;
+	--button: #178CA4;
+	--button-hover: #126575;
+
+	background-color: var(--background);
+}

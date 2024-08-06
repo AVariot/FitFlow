@@ -1,0 +1,95 @@
+.Navbar_Button_Mobile_Corps {
+    background-color: var(--button);
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: solid 1px black;
+    box-shadow: 5px 5px 0px 0px black;
+}
+
+.Navbar_Button_Mobile_Corps:hover {
+    background-color: var(--button-hover);
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: solid 1px black;
+    box-shadow: 3px 3px 0px 0px black;
+}
+
+/* LATTERAL */
+
+.Lateral_Navbar_Corps {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 30%;
+    height: 100em;
+    background-color: var(--button);
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    border-right: solid 3px var(--headfeet);
+}
+
+.Latteral_Navbar_Button_Mobile_Corps {
+    width: 30%;
+    background-color: var(--button);
+    background-color: none;
+    height: 3%;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 25px;
+}
+
+.Latteral_Navbar_Button_Mobile_Corps:hover {
+    color: var(--button-hover);
+}
+
+.Latteral_Navbar_Button_Direction_Page_Corps {
+    display: flex;
+    flex-direction: column;
+}
+
+.Latteral_Navbar_Button_Direction_Page_Button {
+    border: none;
+    width: 100%;
+    height: 45px;
+    position: relative;
+    border-bottom: solid 3px var(--headfeet);
+    cursor: pointer;
+    color: white;
+    background-color: var(--button);
+    outline: none;
+}
+
+.Latteral_Navbar_Button_Direction_Page_Button:hover {
+    background-color: var(--button-hover);
+}
+
+.Latteral_Navbar_Button_Direction_Page_Button_Text {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
